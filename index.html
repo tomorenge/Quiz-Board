@@ -14,68 +14,86 @@
         <div class="panel panel-info">
     <h1>QUIZ BOARD</h1>
     <h2>Answer the following questions</h2>
-    <div class= "questionOne">
+    <div id= "questionOne">
       <form id="Quiz" action="index.html" method="POST" name="Quiz">
         <p><strong> 1.How do you create a javascript variable?</strong></p>
         <br>
-        <input type="radio" name="questionOne"  value="wrong">vaiable CarName<br>
-        <input type="radio" name="questionOne"  value="wrong">v carName<br>
-        <input type="radio" name="questionOne"  value="correct">var carName<br>
+        <div class="answers">
+        <input type="radio" name="questionOne" value="wrong">vaiable CarName<br>
+        <input type="radio" name="questionOne" value="wrong">v carName<br>
+        <input type="radio" name="questionOne" value="correct">var carName<br>
       </div>
-      <div class= "questionTwo">
+      </div>
+      <div id= "questionTwo">
         <p><strong> 2.What will the following code return?Boolean(10>9)</strong></p>
         <br>
-        <input type="radio" name="questionTwo" value="wrong">NaN<br>
-        <input type="radio" name="questionTwo" value="wrong">False<br>
-        <input type="radio" name="questionTwo" value="correct">True<br>
+        <div class="answers">
+        <input type="radio" name="questionTwo"  value="wrong">NaN<br>
+        <input type="radio" name="questionTwo"  value="wrong">False<br>
+        <input type="radio" name="questionTwo"  value="correct">True<br>
+      </div>
       </div>
 
-      <div class="questionThree">
+      <div id="questionThree">
         <p><strong> 3.Which operator  is used to assign a value to a variable?</strong></p>
         <br>
+        <div class="answers">
         <input type="radio" name="questionThree" value="wrong">*<br>
         <input type="radio" name="questionThree" value="wrong">-<br>
         <input type="radio" name="questionThree" value="correct">=<br>
       </div>
-      <div class= "questionFour">
+      </div>
+      <div id= "questionFour">
         <p><strong> 4.How does a WHILE loop start?</strong></p>
         <br>
-        <input type="radio" name="questionFour" value="correct">while(i<=10)<br>
-        <input type="radio" name="questionFour" value="wrong">while(i<=10;1++)<br>
+        <div class="answers">
+        <input type="radio" name="questionFour"  value="correct">while(i<=10)<br>
+        <input type="radio" name="questionFour"  value="wrong">while(i<=10;1++)<br>
         <input type="radio" name="questionFour"  value="wrong">i=1to10<br>
       </div>
-      <div class="questinFive">
-        <p><strong> 5.Where is the correct place to insert a javascript?</strong></p>
-        <input type="radio" name="questionFive" value="correct">Both the <head> section and the <body><br>
-        <input type="radio" name="questionFive"  value="wrong">The <body> section<br>
-        <input type="radio" name="questionFive"  value="wrong">The <head> section<br>
       </div>
-      <div class="questionSix">
+      <div id="questinFive">
+        <p><strong> 5.Where is the correct place to insert a javascript?</strong></p>
+        <br>
+        <div class="answers">
+        <input type="radio" name="questionFive"  value="correct">Both the head section and the body section<br>
+        <input type="radio" name="questionFive"  value="wrong">The body section<br>
+        <input type="radio" name="questionFive"  value="wrong">The head section<br>
+        </div>
+      </div>
+      <div id="questionSix">
         <p><strong> 6.Which event occurs when user clicks on an HTML element?</strong></p>
         <br>
+        <div class="answers">
         <input type="radio" name="questionSix"  value="wrong">ommouseclick<br>
         <input type="radio" name="questionSix"  value="correct">onclick<br>
         <input type="radio" name="questionSix"  value="wrong">onchange<br>
       </div>
-      <div class="questionSeven">
+      </div>
+      <div id="questionSeven">
         <p><strong> 7.How do you call a function named "myFunction()"?</strong></p>
         <br>
+        <div class="answers">
         <input type="radio" name="questionSeven"  value="wrong">function my Function()<br>
         <input type="radio" name="questionSeven"  value="wrong">call function myFunction<br>
         <input type="radio" name="questionSeven"  value="correct">myFunction()<br>
       </div>
-      <div class="questionEight">
+      </div>
+      <div id="questionEight">
         <p><strong> 8.How do you write "hello World" in alert box?</strong></p>
         <br>
+        <div class="answers">
         <input type="radio" name="questionEight"  value="wrong">msgBox("Hello World");<br>
-        <input type="radio" name="questionEight" value="wrong">alertBox("Hello World");<br>
+        <input type="radio" name="questionEight"  value="wrong">alertBox("Hello World");<br>
         <input type="radio" name="questionEight"  value="correct">alert("Hello World");<br>
       </div>
+      </div>
       <br>
-      <input type="button" name="result" value="submit" id="button" class="btn btn-danger" onClick="check()";>
+      <input type="button" name="result" value="submit" id="button" class="btn btn-danger">
       </form>
     <div id="result">
-      <p id="corectnumber"> Here is your correct score:</p>
+      <br>
+      <p id="correctnumber"><em> Here is your score:</em></p>
   </div>
   </body>
 </html>
