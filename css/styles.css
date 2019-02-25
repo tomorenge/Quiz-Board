@@ -20,6 +20,7 @@ body{
 .jumbotron{
   background-attachment: fixed;
   background-size: 35px;
+  margin-left: 20px;
 
 }
 .panel panel-info{
