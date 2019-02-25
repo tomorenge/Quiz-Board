@@ -1,7 +1,12 @@
 body{
-  background-color: black;
-  background-image: url("../images/quiz.jpeg")
+  background-color: purple;
+
 }
 .container{
   margin-top: 100px;
+  text-align: center;
+
+}
+.conta {
+  background-image: url(quiz.jpeg);
 }
