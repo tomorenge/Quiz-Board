@@ -1,6 +1,7 @@
 body{
   background-color: black;
   font-family: sans-serif;
+  background-size: cover;
   h1{
     color: maroon;
   }
@@ -15,6 +16,7 @@ body{
 
 }
 .jumbotron{
+  background-attachment: fixed;
 
 }
 .panel panel-info{
@@ -27,5 +29,7 @@ body{
 #Quiz{
   background-image: url(quiz.jpeg);
   color:white;
+
+}
 
 }
