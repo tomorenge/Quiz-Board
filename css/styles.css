@@ -1,15 +1,26 @@
 body{
   background-color: purple;
 
-}
-.container{
-  margin-top: 100px;
-  text-align: center;
 
 }
-.conta {
-  background-image: url(quiz.jpeg);
+.container{
+  margin-top:50px;
+  text-align: center;
+  /* background-image: url(quiz.jpeg); */
+
+
 }
-.pane-panel info{
+.jumbotron{
+
+}
+.panel panel-info{
+
+}
+/* .pane-{
   background-color: blue;
+} */
+
+#Quiz{
+  background-image: url(quiz.jpeg);
+
 }
