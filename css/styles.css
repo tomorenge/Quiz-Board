@@ -3,6 +3,7 @@ body{
   font-family: sans-serif;
   background-size: cover;
   text-align: center;
+  background-size: 30px;
 
 
   }
@@ -12,8 +13,7 @@ body{
 }
 .container{
   margin-top:50px;
-  text-align: center;
-  /* background-image: url(quiz.jpeg); */
+  text-align: center
 
 
 }
