@@ -10,3 +10,6 @@ body{
 .conta {
   background-image: url(quiz.jpeg);
 }
+.pane-panel info{
+  background-color: blue;
+}
